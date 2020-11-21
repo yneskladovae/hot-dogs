@@ -76,7 +76,8 @@ input[type=number] {
     cursor: pointer;
     width: 230px;
 }
-    
+
+/*------------- media query -------------*/
 @media screen and (max-width: 800px) {
     .flex_item {
         max-width: 450px;
@@ -97,6 +98,7 @@ input[type=number] {
         padding: 13px;
         width: 175px;
         margin: 5px;
+        font-size: 13px;
     }
 }
 

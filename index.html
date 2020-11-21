@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Dogs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icon.png" type="image/gif" sizes="16x16">
+</head>
+<body>
+    
+<header>
+    <div class="conteiner">
+        <nav class="nav">
+            <a href="#">
+            <img src="img/logo.png" alt="Logotip">
+            </a>
+            <ul class="nav">
+                <li class="nav_item"><a class="nav_item_link" href="#countDog">Викторина</a> </li>
+                <li class="nav_item"><a class="nav_item_link" href="#randomName">Клички</a></li>
+                <li class="nav_item"><a class="nav_item_link" href="#calcAge">Возраст</a> </li>
+                <li class="nav_item"><a class="nav_item_link" href="#photo">Галерея</a> </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="test" id="countDog">
+    <div class="conteiner">
+        <div class="flex">
+            <div class="flex_item">
+                <img class="test_picrure" src="img/dogs.png" alt="Dogs">
+            </div>
+            <div class="flex_item">
+                <p class="test_input_output"></p>
+                <h2>Сколько собак изображено на фото?</h2>
+                <p>Проверьте свою внимательность и напишите число собак, которое вы насчитали. Смотрите внимательнее, удачи!</p>
+                <input class="test_input input_style" type="number">
+                <button class="test_btn btn_style">Ответить!</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="random" id="randomName">
+    <div class="conteiner">
+        <div class="flex">
+            <div class="flex_item">
+                <img class="imgMobile" src="img/random-name.png" alt="Dog">
+                <h2>Не знаете как назвать свою собаку ? Мы вам поможем!</h2>
+                <p>Приобретая собаку, вы в первую очередь задумываетесь о выборе для нее красивой и звучной клички. Несмотря на то, что список с кличками для собак может оказаться бесконечным, для многих становится серьезной проблемой выбор конкретного имени.</p>
+                <p class="output_g dog_name"></p>
+                <button class="btn-girl btn_style">Для девочки!</button>
+                <button class="btn-boy btn_style">Для Мальчика!</button>
+            </div>
+            <div class="flex_item">
+                <img class="imgDesktop" src="img/random-name.png" alt="Dog">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="calc" id="calcAge">
+    <div class="conteiner">
+        <div class="flex">
+            <div class="flex_item">
+                <img src="img/calc.png" alt="Dog">
+            </div>
+            <div class="flex_item">
+                <div>
+                    <p class="output_calc_person">?</p>
+                    <h2>Хочешь узнать человеческий возвраст собаки?</h2>
+                    <p>Если вашему псу исполнилось 10 лет - сколько это, если сравнить с человеком? Широко распространено мнение, что возраст собаки, которой десять лет, примерно соответствует человеческим 70 годам. Но так ли это?</p>
+                    <input class="calc_person input_style" type="number">
+                    <button class="btn_calc_person btn_style">Узнать!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="galeri" id="photo">
+    <div class="conteiner">
+        <div class="tag">
+            <span class="tag_item active_tag">Разные</span>
+            <span class="tag_item">Мопсы</span>
+            <span class="tag_item">Шнауцеры</span>
+        </div>
+        <div class="photo">
+            <img src="img/1.jpg" alt="Dog">
+            <img src="img/2.jpg" alt="Dog">
+            <img src="img/3.jpg" alt="Dog">
+            <img src="img/4.jpg" alt="Dog">
+            <img src="img/5.jpg" alt="Dog">
+            <img src="img/6.jpg" alt="Dog">
+            <img src="img/7.jpg" alt="Dog">
+            <img src="img/8.jpg" alt="Dog">
+            <img src="img/1.jpg" alt="Dog">
+            <img src="img/2.jpg" alt="Dog">
+            <img src="img/3.jpg" alt="Dog">
+            <img src="img/4.jpg" alt="Dog">
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="conteiner">
+        <span>©&nbsp;2020&nbsp; 
+            <a href="https://yneskladovae.github.io/cv/">Denis Polunosik</a>
+        </span>
+    </div>
+</footer>
+
+<script src="js/calc-age.js"></script>
+<script src="js/count-dog.js"></script>
+<script src="js/photo-tag.js"></script>
+<script src="js/randon-name.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+.output_calc_person {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 29px;
+    font-weight: bold;
+    color: red;
+    border: 4px solid white;
+    -webkit-box-shadow: inset 0 0 8px #F44336, 0 0 16px #F44336;
+    -moz-box-shadow: inset 0 0 8px #F44336, 0 0 16px #F44336;
+    box-shadow: inset 0 0 8px #F44336, 0 0 16px #F44336;
+    background: rgba(255,255,255,0.5);
+}
+
+
